@@ -1,0 +1,18 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secret-key:
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket:
+    stack:
+      auto: false
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
